@@ -1,0 +1,7 @@
+{
+  "extends": "./node_modules/gts/",
+  "rules": {
+    "max-len": ["error", {"ignoreComments": true, "code": 120}],
+    "prettier/prettier": ["error", { "printWidth": 120}]
+  }
+}
