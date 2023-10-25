@@ -49,14 +49,14 @@ npm run compile
 
 To use Swagger Mapper, run the following command:
 ```
-swagger-mapper <urls> <outputDir>
+swaggerMapper <urls> <outputDir>
 ```
 
 Replace <urls> with the URL(s) of the Swagger JSON file(s), separated by commas, and <outputDir> with the directory where the Postman collection will be saved.
 
 For example:
 ```
-swagger-mapper https://localhost:3000/swagger.json ./collections
+swaggerMapper https://localhost:3000/swagger.json ./collections
 ```
 
 This will map the Swagger JSON file at the specified URL to a Postman collection and save it in the collections directory.
