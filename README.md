@@ -37,11 +37,12 @@ To install Swagger Mapper, first clone the repository:
 git clone https://github.com/kuusimaa/swagger-mapper.git
 ```
 
-Then, navigate to the project directory and install the dependencies:
+Then, navigate to the project directory, install the dependencies and build:
 
 ```
 cd swagger-mapper
 npm install
+npm run compile
 ``````
 
 ## Usage <a name="usage"></a>
